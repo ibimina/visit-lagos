@@ -1,0 +1,87 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+h1,h2,h3{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+    /* height: 100vh; */
+    display: flex;
+justify-content: center;
+overflow: scroll;
+
+}
+.container{
+    height: 100%;
+}
+.hero{
+    background-image: url("https://cdn.dribbble.com/users/384608/screenshots/2799875/media/6efeb1ca3c6aa82fe595e1963658be6f.jpg?compress=1&resize=320x240&vertical=top");
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+height: 40vh;
+width: 100%;
+display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.hero h1{
+    margin-bottom: 2rem;
+}
+img {
+    width: 100px;
+}
+.activities-container{
+    background-color: #c0daeb;
+  padding: 6rem 0;
+}
+.activities{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.activities div{
+    padding: 3rem;
+    text-align: center;
+}
+.activities img{
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+}
+footer{
+display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 40vh;
+}
+.guide{
+    max-width: 390px;
+    display: flex;
+    align-items: center;
+  justify-content: center;
+  gap: 1rem;
+    background-color: #457B9D;
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+.guide img{
+    border-radius: 5px;
+
+}
